@@ -11,15 +11,13 @@ Para esse trabalho o grupo deverá escolher 5 características dentre as 9 carac
 - Uma relação da característica com os maus-cheiros de código definidos por Fowler. Uma descrição dos maus cheiros está disponível nos slides sobre o conteúdo de refatoração;
 - Pelo menos uma operação de refatoração capaz de levar o projeto de código a ter a característica em análise.
 
-## Documentação
+## Mau cheiros explorados:
 
-### 1. Código Duplicado:
-
-### 2. Moduaridade (Baixo Acoplamento e Alta Coesão):
-
-### 3. Boas Interfaces:
-
-### 5. Boa Documentação:
+### 1. Código Duplicado
+### 2. Método Longo
+### 3. Código de Difícil Entendimento
+### 4. Switches Longos
+### 5. Dependência Cíclica
 
 ## Prática
 
@@ -33,19 +31,19 @@ Para esse trabalho o grupo deverá escolher 5 características dentre as 9 carac
 ```
 python3 1_codigo_duplicado.py
 ```
-#### Código duplicado:
+#### Método Longo:
 ```
-python3 caracteristica_[numero].py
+python3 2_metodo_longo.py
 ```
-#### Código duplicado:
+#### Código de Difícil Entendimento:
 ```
-python3 caracteristica_[numero].py
+python3 3_codigo_de_dificil_entendimento.py
 ```
-#### Código duplicado:
+#### Switches Longos:
 ```
-python3 caracteristica_[numero].py
+python3 4_switches_longos.py
 ```
-#### Código duplicado:
+#### Dependência Cíclica:
 ```
-python3 caracteristica_[numero].py
+python3 5_dependencia_ciclica.py
 ```
